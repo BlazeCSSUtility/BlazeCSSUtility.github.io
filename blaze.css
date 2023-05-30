@@ -15,7 +15,6 @@ body{
 }
 .box{
     margin-top: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.045);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -30,6 +29,10 @@ body{
 .what-is-blaze-head, .how-can-i-get-head, .documentation, .formatting{
     font-family: Quicksand;
     line-height: 0px;
+    font-weight: bold;
+    color: rgb(229, 229, 229);
+    font-size: 50px;
+    text-align: center;
 }
 .what-is-blaze-body, .how-can-i-get-body{
     font-family: Poppins;
@@ -52,4 +55,17 @@ img[src="blazeImports.png"], img[src="blazeTest.png"]{
 }
 .quicksand{
     font-family: Quicksand;
+}
+
+.title{
+    font-size: 100px;
+}
+.large-text{
+    font-size: 100px;
+}
+.bold{
+    font-weight: bold;
+}
+.normal{
+    font-weight: normal;
 }
