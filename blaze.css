@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Quicksand:wght@300;400;700&display=swap');
+@font-face{
+    font-family: Cubano;
+    src: url("Cubano.ttf");
+}
+body{
+    margin: 0px;
+    background-color: #121314;
+}
+.box-one{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #C02425, #f09635);
+}
+.box{
+    margin-top: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.045);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-family: Cubano;
+    background-color: black;
+    width: max-content;
+    padding: 0px 50px 10px 50px;
+}
+.what-is-blaze-head, .how-can-i-get-head, .documentation, .formatting{
+    font-family: Quicksand;
+    line-height: 0px;
+}
+.what-is-blaze-body, .how-can-i-get-body{
+    font-family: Poppins;
+}
+.github{
+    border: 1px solid rgb(153,99,0);
+    font-family: Poppins;
+    cursor: pointer;
+    transition: .1s ease;
+}
+.github:hover{
+    transition: .2s ease;
+    border: 2px solid rgb(153,99,0);
+    background-color: transparent;
+    box-sizing: border-box;
+    height: 40px;
+}
+img[src="blazeImports.png"], img[src="blazeTest.png"]{
+    box-shadow: 0px 0px 10px -3px rgb(105, 104, 120);
+}
+.quicksand{
+    font-family: Quicksand;
+}
