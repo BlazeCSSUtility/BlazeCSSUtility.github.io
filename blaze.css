@@ -19,13 +19,13 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
 }
 .title{
     font-family: Cubano;
     background-color: black;
     width: max-content;
     padding: 0px 50px 10px 50px;
+    color: white;
 }
 .what-is-blaze-head, .how-can-i-get-head, .documentation, .formatting{
     font-family: Quicksand;
@@ -37,6 +37,8 @@ body{
 }
 .what-is-blaze-body, .how-can-i-get-body{
     font-family: Poppins;
+    color: rgb(105, 104, 120);
+    text-align: center;
 }
 .github{
     border: 1px solid rgb(153,99,0);
