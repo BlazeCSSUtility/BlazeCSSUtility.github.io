@@ -46,6 +46,7 @@ body{
     font-family: Poppins;
     cursor: pointer;
     transition: .1s ease;
+    color: white;
     background-color: transparent;
 }
 .github:hover{
