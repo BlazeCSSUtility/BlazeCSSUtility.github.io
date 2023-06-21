@@ -4,22 +4,54 @@ html {
 body {
     margin: 0px;
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("https://dynamicwallpaper.club/landing-vids/1.png");
 }
 body:hover > #pointer {
     opacity: 1;
 }
 #pointer {
-    height: 30px;
+    height: 27px;
     position: fixed;
     left: 0px;
     top: 0px;
     z-index: 10000;
-
     pointer-events: none;
     opacity: 0;
     transition: opacity .3s ease;
 }
+.taskbar {
+    background-color: #b7b7b78d;
+    padding: 0px 0px 0px 10px;
+    height: 80px;
+    position: fixed;
+    width: max-content;
+    bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
 * {
     cursor: none;
+}
+.taskbar-icon {
+    height: 60px;
+    border-radius: 10px;
+    z-index: 1000;
+    margin-right: 10px;
+}
+.taskbar-container {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.wallpaper_app {
+    border-radius: 15px;
+    background-color: white;
+    height: 500px;
+    aspect-ratio: 1.618 / 1;
+    position: absolute;
 }
